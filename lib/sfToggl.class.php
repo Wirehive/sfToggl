@@ -8,7 +8,15 @@
  * @version 0.1
  * @package sfTogglePlugin
  */
-class sfToggle
+class sfToggle extends TogglAPI
 {
+  public function __construct($apiKey = null, $mode = null)
+  {
+    if ($apiKey === null)
+    {
+      $apiKey = sfConfig::get('app_sf_toggl_plugin_apiKey');
+    }
 
+    parent::__construct($apiKey);
+  }
 }
