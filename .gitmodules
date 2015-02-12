@@ -1,0 +1,3 @@
+[submodule "lib/vendor/toggl"]
+	path = lib/vendor/toggl
+	url = https://github.com/Wirehive/toggl.git
