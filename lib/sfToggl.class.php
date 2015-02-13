@@ -6,9 +6,9 @@
  *
  * @author  Robin Corps <robin@wirehive.net>
  * @version 0.1
- * @package sfTogglePlugin
+ * @package sfTogglPlugin
  */
-class sfToggle extends TogglAPI
+class sfToggl extends TogglAPI
 {
   public function __construct($apiKey = null, $mode = null)
   {

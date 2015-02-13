@@ -1,0 +1,3 @@
+all:
+  sf_toggl_plugin:
+    apiKey: [key here] # find your key here: https://toggl.com/app/profile
