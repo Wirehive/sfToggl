@@ -10,13 +10,18 @@
  */
 class sfToggl extends TogglAPI
 {
-  public function __construct($apiKey = null, $mode = null)
+  public function __construct($apiKey = null, $mode = null, $userAgent = null)
   {
     if ($apiKey === null)
     {
       $apiKey = sfConfig::get('app_sf_toggl_plugin_apiKey');
     }
 
-    parent::__construct($apiKey);
+    if ($userAgent === null)
+    {
+      $userAgent = sfConfig::get('app_sf_toggl_plugin_userAgent');
+    }
+
+    parent::__construct($apiKey, $mode, $userAgent);
   }
 }

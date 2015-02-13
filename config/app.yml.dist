@@ -1,3 +1,9 @@
 all:
   sf_toggl_plugin:
-    apiKey: [key here] # find your key here: https://toggl.com/app/profile
+    # find your key here: https://toggl.com/app/profile
+    apiKey: insert_your_key_here
+
+    # the name of your application or your email address so Toggl can
+    # get in touch in case you're doing something wrong - required for
+    # Report API - e.g. "Wirehive (robin@wirehive.net)"
+    userAgent: "add_your_agent_here"
