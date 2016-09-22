@@ -5,5 +5,5 @@ all:
 
     # the name of your application or your email address so Toggl can
     # get in touch in case you're doing something wrong - required for
-    # Report API - e.g. "Wirehive (robin@wirehive.net)"
+    # Report API - e.g. "Wirehive (robin.corps@wirehive.com)"
     userAgent: "add_your_agent_here"
